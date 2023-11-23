@@ -1,0 +1,29 @@
+{
+  "name": "observability-assignment",
+  "version": "1.0.0",
+  "description": "Observability Assignment for ESEP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josuevicente33/Observability-Assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josuevicente33/Observability-Assignment/issues"
+  },
+  "homepage": "https://github.com/josuevicente33/Observability-Assignment#readme",
+  "dependencies": {
+    "@opentelemetry/api": "^1.7.0",
+    "@opentelemetry/instrumentation-http": "^0.45.1",
+    "@opentelemetry/instrumentation-mongodb": "^0.37.3",
+    "@opentelemetry/sdk-trace-node": "^1.18.1",
+    "express": "^4.18.2",
+    "mongodb": "^4.3.1",
+    "opentelemetry-instrumentation-express": "^0.40.0"
+  }
+}
